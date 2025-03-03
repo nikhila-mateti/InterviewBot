@@ -57,9 +57,15 @@ This project is a **Retrieval-Augmented Generation (RAG)** based chatbot that le
 
 ## 🏃 🧠 How the RAG Chatbot Works
 🔹 Step 1: User asks a natural language question. <br>
-🔹 Step 2: Relevant nodes and relationships are retrieved from Neo4j.
-🔹 Step 3: Data is transformed into documents for LlamaIndex indexing.
-🔹 Step 4: Semantic search finds the most relevant pieces of information.
-🔹 Step 5: The selected context is passed to OpenAI GPT.
-🔹 Step 6: GPT generates an enriched, context-aware response.
-🔹 Step 7: The answer is returned to the user.
+🔹 Step 2: Relevant nodes and relationships are retrieved from Neo4j.<br>
+🔹 Step 3: Data is transformed into documents for LlamaIndex indexing.<br>
+🔹 Step 4: Semantic search finds the most relevant pieces of information.<br>
+🔹 Step 5: The selected context is passed to OpenAI GPT.<br>
+🔹 Step 6: GPT generates an enriched, context-aware response.<br>
+🔹 Step 7: The answer is returned to the user.<br>
+
+## 💡 Acknowledgements
+- LangChain
+- LlamaIndex
+- Neo4j
+- OpenAI GPT
