@@ -56,7 +56,7 @@ This project is a **Retrieval-Augmented Generation (RAG)** based chatbot that le
     NEO4J_PASSWORD=your_password
 
 ## 🏃 🧠 How the RAG Chatbot Works
-🔹 Step 1: User asks a natural language question.
+🔹 Step 1: User asks a natural language question. <br>
 🔹 Step 2: Relevant nodes and relationships are retrieved from Neo4j.
 🔹 Step 3: Data is transformed into documents for LlamaIndex indexing.
 🔹 Step 4: Semantic search finds the most relevant pieces of information.
